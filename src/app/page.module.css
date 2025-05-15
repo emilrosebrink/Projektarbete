@@ -1,0 +1,589 @@
+.box {
+  max-width: 1000px;
+  width: 100%;
+  margin: 2rem auto 0;
+  background: #fff;
+  min-height: 400px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+.logo {
+  display: block;
+  margin: 2rem auto;
+}
+
+.description {
+  font-size: 1rem;
+  font-family: inherit;
+  color: #666;
+  margin-top: 0.25rem;
+}
+
+.formContent {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem;
+  margin-left: 70px;
+}
+
+.searchRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 2rem;
+  align-items: center;
+}
+
+.buttonRow {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  max-width: 685px;
+  padding-top: 20px;
+}
+
+.addButton {
+  justify-self: start;
+  margin-left: 95px;
+}
+
+.searchButton {
+  justify-self: end;
+}
+
+.deleteButton {
+  cursor: pointer;
+  color: #c00;
+  margin-right: 190px;
+}
+
+.deleteButton:hover {
+  transform: scale(1.2);
+}
+
+.dryRunToggle {
+  grid-column: 1 / -1;
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: #666;
+  cursor: pointer;
+  padding-top: 8px;
+}
+
+.dryRunNotice {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1a1a1a;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateX(-50%) translateY(8px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+.resultCard {
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  padding: 24px;
+  margin-top: 32px;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 700px;
+}
+
+.resultHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.resultTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #444;
+  margin: 0;
+}
+
+.resultsGrid {
+  display: grid;
+  gap: 16px;
+}
+
+.resultItem {
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  padding: 16px;
+  background: #fafafa;
+  transition: all 0.15s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.resultItem:hover {
+  border-color: #7fa8f0;
+  background: #f5f8ff;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(100, 140, 220, 0.1);
+}
+
+.resultContent {
+  flex: 1;
+}
+
+.resultSource {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4a6fa5;
+  margin-bottom: 8px;
+}
+
+.resultDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.resultField {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+}
+
+.fieldLabel {
+  background: #eef3fb;
+  color: #4a6fa5;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  min-width: fit-content;
+}
+
+.fieldLabelMatched {
+  background: #d4edda;
+  color: #1a5c2e;
+  border: 1px solid #a8d5b5;
+}
+
+.resultFieldMatched {
+  background: #f4fbf6;
+  border-radius: 4px;
+  padding: 2px 4px;
+  margin: -2px -4px;
+  align-self: flex-start;
+}
+
+.fieldValue {
+  color: #444;
+  font-weight: 400;
+  word-break: break-all;
+}
+
+.resultActions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 15px;
+  margin-left: 16px;
+  flex-shrink: 0;
+}
+
+.maskResultButton {
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: #4a6fa5;
+  background: #eef3fb;
+  border: 1px solid #c8d8f0;
+  border-radius: 4px;
+  padding: 3px 8px;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+
+.maskResultButton:hover {
+  background: #dbe8f8;
+  border-color: #7fa8f0;
+}
+
+.deleteResultButton {
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: #a00;
+  background: #fbeeed;
+  border: 1px solid #f0c8c8;
+  border-radius: 4px;
+  padding: 3px 8px;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+}
+
+.deleteResultButton:hover {
+  background: #f8dada;
+  border-color: #e07070;
+}
+
+.maskCheckbox {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  accent-color: #4a6fa5;
+}
+
+.resultFieldMasked {
+  opacity: 0.7;
+}
+
+.fieldValueMasked {
+  color: #999;
+  font-style: italic;
+  letter-spacing: 0.03em;
+}
+
+.maskActions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+  margin-left: 16px;
+  flex-shrink: 0;
+  padding-top: 4px;
+}
+
+.maskActionsButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.confirmOverlay {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.confirmText {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.confirmSubText {
+  font-size: 0.82rem;
+  color: #666;
+}
+
+.confirmButtons {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.confirmButton {
+  font: inherit;
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: none;
+  background: #c00;
+  color: white;
+  cursor: pointer;
+}
+
+.confirmButton:hover {
+  background: #a00;
+}
+
+.cancelButton {
+  font: inherit;
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: white;
+  color: #444;
+  cursor: pointer;
+}
+
+.cancelButton:hover {
+  background: #f5f5f5;
+}
+
+.maskAllButton {
+  font: inherit;
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: 1px solid #f0c8c8;
+  background: #fbeeed;
+  color: #a00;
+  cursor: pointer;
+}
+
+.maskAllButton:hover {
+  background: #f8dada;
+  border-color: #e07070;
+}
+
+/* ── Grouped results ─────────────────────────────────────────── */
+
+.sourceCountBadge {
+  margin-left: auto;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: #4a6fa5;
+  background: #eef3fb;
+  border: 1px solid #c8d8f0;
+  border-radius: 12px;
+  padding: 3px 10px;
+}
+
+.sourcesGrid {
+  display: grid;
+  gap: 8px;
+}
+
+.sourceItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ebebeb;
+  border-radius: 7px;
+  padding: 10px 14px;
+  background: #fafafa;
+  transition: all 0.15s ease;
+}
+
+.sourceItem:hover {
+  border-color: #7fa8f0;
+  background: #f5f8ff;
+}
+
+/* ── Fuzzy / potentiella träffar ─────────────────────────────── */
+
+.fuzzyCard {
+  border: 1px solid #f0d070;
+  box-shadow: 0 2px 10px rgba(200, 160, 0, 0.08);
+  border-radius: 10px;
+  padding: 24px;
+  margin-top: 32px;
+  background-color: #fffdf0;
+  width: 100%;
+  max-width: 700px;
+}
+
+.fuzzyTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #7a6000;
+  margin: 0;
+  margin-right: 12px;
+}
+
+.fuzzySubtitle {
+  font-size: 0.8rem;
+  color: #9a8040;
+  background: #fef3b0;
+  border: 1px solid #e8d060;
+  border-radius: 4px;
+  padding: 2px 8px;
+}
+
+.fuzzyItem {
+  border: 1px solid #f0d070;
+  border-radius: 8px;
+  padding: 16px;
+  background: #fffff8;
+  transition: all 0.15s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.fuzzyItem:hover {
+  border-color: #c8a000;
+  background: #fffde8;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(200, 160, 0, 0.12);
+}
+
+.fuzzyHighlight {
+  background: #ffe033;
+  color: #4a3800;
+  border-radius: 2px;
+  padding: 0 1px;
+  font-style: normal;
+}
+
+.fuzzyHint {
+  font-size: 0.75rem;
+  color: #9a8040;
+  font-style: italic;
+  margin-left: 4px;
+}
+
+.fuzzyActions {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.acceptButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid #4caf50;
+  background: #e8f5e9;
+  color: #2e7d32;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.acceptButton:hover {
+  background: #4caf50;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.rejectButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid #e57373;
+  background: #ffebee;
+  color: #c62828;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.rejectButton:hover {
+  background: #e57373;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* ── JSON-modal ───────────────────────────────────────────── */
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modalBox {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  width: 90%;
+  max-width: 620px;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid #eee;
+  flex-shrink: 0;
+}
+
+.modalTitle {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #4a6fa5;
+  margin: 0;
+}
+
+.modalClose {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  border-radius: 4px;
+  transition: color 0.15s ease;
+}
+
+.modalClose:hover {
+  color: #333;
+}
+
+.modalBody {
+  overflow-y: auto;
+  padding: 16px 20px;
+}
+
+.jsonPre {
+  margin: 0;
+  font-family: "Consolas", "Monaco", monospace;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: #333;
+  white-space: pre;
+}
+
+.jsonViewButton {
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: #4a6fa5;
+  background: #eef3fb;
+  border: 1px solid #c8d8f0;
+  border-radius: 4px;
+  padding: 3px 8px;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.jsonViewButton:hover {
+  background: #dbe8f8;
+  border-color: #7fa8f0;
+}

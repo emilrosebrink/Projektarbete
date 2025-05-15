@@ -1,0 +1,14 @@
+{
+    "id": "b1287bb749d4a07b",
+    "link": "b1287bb749d4a07b",
+    "reference": "1024785987:010",
+    "type": "short",
+    "payload": "{\"reference\":\"1024785986:010\",\"bookedDate\":\"2022-10-06\",\"bookingStatus\":2,\"customerAddress1\":\"Miovägen 50\",\"customerAddress3\":\"S-42163  VÄSTRA FRÖLUNDA\",\"customerName\":\"Pontusson Pontus\",\"deliveryMethod\":\"LSI\",\"deliveryNumber\":122844568,\"deliveryStatus\":\"05\",\"endTime\":\"2022-10-06T09:00:00+02:00\",\"facility\":null,\"homePhone\":\"0701740605\",\"jointDeliveryCode\":\"010\",\"mobilePhone\":\"0701740605\",\"orderNumber\":\"1024785986\",\"startTime\":\"2022-10-06T08:00:00+02:00\",\"warehouse\":\"VA1\",\"deliveryLines\":[{\"itemNumber\":\"M2027165\",\"itemDescription\":\"Dalarö Matgrupp ,skiva oljad ek ,ben vitlackerad ,2 stolar Einar vit ,1 klaff L75-115 B75\",\"itemQuantity\":1.0,\"itemType\":\"024\"},{\"itemNumber\":\"M1822012\",\"itemDescription\":\"Dalarö Matbord ,skiva oljad massiv ek ,underrede vitlackerad mdf ,1 klaff á40cm L75-115 B7\",\"itemQuantity\":1.0,\"itemType\":\"024\"},{\"itemNumber\":\"M1778841\",\"itemDescription\":\"Einar Stol vitlackerad gummiträ ,rygg ribbor B44 D50 H92\",\"itemQuantity\":2.0,\"itemType\":\"032\"}]}",
+    "expires": "2023-01-06T12:46:11.626863Z",
+    "_rid": "4fddAPcOHkcCAAAAAAAAAA==",
+    "_self": "dbs/4fddAA==/colls/4fddAPcOHkc=/docs/4fddAPcOHkcCAAAAAAAAAA==/",
+    "_etag": "\"2000a6f5-0000-0d00-0000-66d7041c0000\"",
+    "_attachments": "attachments/",
+    "_lsn": 16,
+    "_ts": 1725367324
+}

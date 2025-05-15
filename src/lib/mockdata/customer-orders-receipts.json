@@ -1,0 +1,199 @@
+{
+    "id": "581385326",
+    "receiptId": "581385326",
+    "receiptNumber": "385326",
+    "division": "O02",
+    "facility": "581",
+    "timestamp": "2023-11-14T12:50:31",
+    "vatTotal": 629.76,
+    "vatPercent": 21.88,
+    "currency": {
+        "currencyCode": "SEK",
+        "currencyName": "Svenska kronor"
+    },
+    "customer": {
+        "memberNumber": "50152833",
+        "contactId": "a742c1ef-4b29-4d8a-91f3-c20000d77ae1"
+    },
+    "totalOrdinaryAmountInclVat": 3508,
+    "totalAmountInclVat": 3148.8,
+    "totalPaidAmount": 3148.8,
+    "roundingAmount": 0,
+    "salesLines": [
+        {
+            "lineNumber": 1,
+            "lineType": "Article",
+            "description": "Köp av artikel",
+            "totalAmount": 99,
+            "quantity": 1,
+            "totalOriginalAmount": 99,
+            "totalDiscountAmount": 0,
+            "item": {
+                "itemNumber": "M2122273",
+                "itemDescription": "Mercury Dekorationsfat  antiks",
+                "itemExtraDescription": "vart järn oval L36 B20 H1,5",
+                "itemLongDescription": "Mercury Dekorationsfat  antiksvart järn oval L36 B20 H1,5",
+                "salesPrice": 99,
+                "imageUrl": "https://www.mcdn.net/images/products/134461.jpg"
+            },
+            "promotion": {}
+        },
+        {
+            "lineNumber": 2,
+            "lineType": "Article",
+            "description": "Köp av artikel",
+            "totalAmount": 1497,
+            "quantity": 3,
+            "totalOriginalAmount": 1497,
+            "totalDiscountAmount": 0,
+            "item": {
+                "itemNumber": "M2199798",
+                "itemDescription": "Miro Adventsljusstake  grå/bei",
+                "itemExtraDescription": "ge trä B60 H64 D5,5 3W E10 IP20 inomhus",
+                "itemLongDescription": "Miro Adventsljusstake  grå/beige trä B60 H64 D5,5 3W E10 IP20 inomhus",
+                "salesPrice": 499,
+                "imageUrl": "https://www.mcdn.net/images/products/151815.jpg"
+            },
+            "promotion": {}
+        },
+        {
+            "lineNumber": 3,
+            "lineType": "Article",
+            "description": "Köp av artikel",
+            "totalAmount": 299,
+            "quantity": 1,
+            "totalOriginalAmount": 299,
+            "totalDiscountAmount": 0,
+            "item": {
+                "itemNumber": "M2199795",
+                "itemDescription": "Lilly Adventsljusstake  grå/be",
+                "itemExtraDescription": "ige trä B50,6 H32 D5 3W E10 IP20 inomhus",
+                "itemLongDescription": "Lilly Adventsljusstake  grå/beige trä B50,6 H32 D5 3W E10 IP20 inomhus",
+                "salesPrice": 299,
+                "imageUrl": "https://www.mcdn.net/images/products/151830.jpg"
+            },
+            "promotion": {}
+        },
+        {
+            "lineNumber": 5,
+            "lineType": "Article",
+            "description": "Köp av artikel",
+            "totalAmount": 258,
+            "quantity": 2,
+            "totalOriginalAmount": 258,
+            "totalDiscountAmount": 0,
+            "item": {
+                "itemNumber": "M2126571",
+                "itemDescription": "Rockport Örngott till hotellku",
+                "itemExtraDescription": "dde  mörkgrå B70 L100 100% bomull",
+                "itemLongDescription": "Rockport Örngott till hotellkudde  mörkgrå B70 L100 100% bomull",
+                "salesPrice": 129,
+                "imageUrl": "https://www.mcdn.net/images/products/55518.jpg"
+            },
+            "promotion": {}
+        },
+        {
+            "lineNumber": 6,
+            "lineType": "Article",
+            "description": "Köp av artikel",
+            "totalAmount": 158,
+            "quantity": 2,
+            "totalOriginalAmount": 158,
+            "totalDiscountAmount": 0,
+            "item": {
+                "itemNumber": "M2126382",
+                "itemDescription": "Rockport Örngott  mörkgrå B50",
+                "itemExtraDescription": "L60 100% bomull",
+                "itemLongDescription": "Rockport Örngott  mörkgrå B50L60 100% bomull",
+                "salesPrice": 79,
+                "imageUrl": "https://www.mcdn.net/images/products/55521.jpg"
+            },
+            "promotion": {}
+        },
+        {
+            "lineNumber": 7,
+            "lineType": "Article",
+            "description": "Köp av artikel",
+            "totalAmount": 399,
+            "quantity": 1,
+            "totalOriginalAmount": 399,
+            "totalDiscountAmount": 0,
+            "item": {
+                "itemNumber": "M2162226",
+                "itemDescription": "Julienne Kuvertlakan percale v",
+                "itemExtraDescription": "it B210 L210 100% bomull",
+                "itemLongDescription": "Julienne Kuvertlakan percale vit B210 L210 100% bomull",
+                "salesPrice": 399,
+                "imageUrl": "https://www.mcdn.net/images/products/2944.jpg"
+            },
+            "promotion": {}
+        },
+        {
+            "lineNumber": 8,
+            "lineType": "Article",
+            "description": "Köp av artikel",
+            "totalAmount": 399,
+            "quantity": 1,
+            "totalOriginalAmount": 399,
+            "totalDiscountAmount": 0,
+            "item": {
+                "itemNumber": "M2126297",
+                "itemDescription": "Rockport Påslakanset  mörkgrå",
+                "itemExtraDescription": "B150 L210 2 delar ,1 örngott B50 L60 100% bomull",
+                "itemLongDescription": "Rockport Påslakanset  mörkgråB150 L210 2 delar ,1 örngott B50 L60 100% bomull",
+                "salesPrice": 399,
+                "imageUrl": "https://www.mcdn.net/images/products/126266.jpg"
+            },
+            "promotion": {}
+        },
+        {
+            "lineNumber": 9,
+            "lineType": "Article",
+            "description": "Köp av artikel",
+            "totalAmount": 399,
+            "quantity": 1,
+            "totalOriginalAmount": 399,
+            "totalDiscountAmount": 0,
+            "item": {
+                "itemNumber": "M2126297",
+                "itemDescription": "Rockport Påslakanset  mörkgrå",
+                "itemExtraDescription": "B150 L210 2 delar ,1 örngott B50 L60 100% bomull",
+                "itemLongDescription": "Rockport Påslakanset  mörkgråB150 L210 2 delar ,1 örngott B50 L60 100% bomull",
+                "salesPrice": 399,
+                "imageUrl": "https://www.mcdn.net/images/products/126266.jpg"
+            },
+            "promotion": {}
+        }
+    ],
+    "paymentLines": [
+        {
+            "lineNumber": 10,
+            "lineType": "Payment",
+            "description": "Betalning",
+            "totalAmount": 3148.8,
+            "quantity": 1,
+            "paymentMethod": {
+                "paymentMethodCode": "BAB",
+                "paymentMethodDescription": "BABS"
+            }
+        }
+    ],
+    "prePaymentLines": [],
+    "campaignLines": [
+        {
+            "lineNumber": 4,
+            "lineType": "Campaign",
+            "description": "Kampanj",
+            "totalAmount": 359.2,
+            "quantity": 1,
+            "campaignName": "Black week första veckan"
+        }
+    ],
+    "roundingLines": [],
+    "_rid": "4fddAONlV6gBAAAAAAAAAA==",
+    "_self": "dbs/4fddAA==/colls/4fddAONlV6g=/docs/4fddAONlV6gBAAAAAAAAAA==/",
+    "_etag": "\"1f001099-0000-0d00-0000-66d6c7a40000\"",
+    "_attachments": "attachments/",
+    "_lsn": 3,
+    "_ts": 1725351844
+}

@@ -1,0 +1,49 @@
+{
+    "id": "122844568:00000000-0000-0000-0000-000000000000",
+    "Reference": "1024785986:010",
+    "contactId": "00000000-0000-0000-0000-000000000000",
+    "BookedDate": "2022-10-06T00:00:00",
+    "BookingStatus": 0,
+    "CustomerAddress1": "Storgatan 42",
+    "CustomerAddress3": "11356 Stockholm",
+    "CustomerName": "Karin Lundqvist",
+    "DeliveryMethod": "LSI",
+    "DeliveryNumber": "122844568",
+    "DeliveryStatus": "05",
+    "EndTime": "2022-10-06T09:00:00+02:00",
+    "Facility": null,
+    "HomePhone": "086512430",
+    "MobilePhone": "0708451923",
+    "JointDeliveryCode": "010",
+    "DeliveringStoreId": null,
+    "OrderNumber": "1024785986",
+    "Warehouse": "VA1",
+    "StartTime": "2022-10-06T08:00:00+02:00",
+    "DeliveryLines": [
+        {
+            "ItemNumber": "M2027165",
+            "ItemDescription": "Dalarö Matgrupp ,skiva oljad ek ,ben vitlackerad ,2 stolar Einar vit ,1 klaff L75-115 B75",
+            "ItemQuantity": 1,
+            "ItemType": "024"
+        },
+        {
+            "ItemNumber": "M1822012",
+            "ItemDescription": "Dalarö Matbord ,skiva oljad massiv ek ,underrede vitlackerad mdf ,1 klaff á40cm L75-115 B7",
+            "ItemQuantity": 1,
+            "ItemType": "024"
+        },
+        {
+            "ItemNumber": "M1778841",
+            "ItemDescription": "Einar Stol vitlackerad gummiträ ,rygg ribbor B44 D50 H92",
+            "ItemQuantity": 2,
+            "ItemType": "032"
+        }
+    ],
+    "ManuallyDeleted": false,
+    "_rid": "4fddANE4PCUBAAAAAAAAAA==",
+    "_self": "dbs/4fddAA==/colls/4fddANE4PCU=/docs/4fddANE4PCUBAAAAAAAAAA==/",
+    "_etag": "\"590011ee-0000-0d00-0000-685ce9ba0000\"",
+    "_attachments": "attachments/",
+    "_lsn": 29,
+    "_ts": 1750919610
+}

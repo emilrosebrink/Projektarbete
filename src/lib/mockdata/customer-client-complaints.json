@@ -1,0 +1,26 @@
+{
+    "id": "20220324031906:OrJlDsxS3uaA",
+    "FriendlyId": "22-2",
+    "ComplaintDate": "2022-03-24T15:19:06.838481Z",
+    "ProductType": 2,
+    "OrderNumber": "123",
+    "StoreId": "481",
+    "ClaimStoreId": null,
+    "Comment": "fel på...",
+    "Files": [],
+    "Customer": {
+        "Name": "Kalle Anka",
+        "Address": "Paradisäppelvägen 111",
+        "ZipCode": "12345",
+        "City": "Ankeborg",
+        "Phone": "0701234567",
+        "Email": "kalle.anka@ankeborg.se"
+    },
+    "Kind": 1,
+    "_rid": "4fddAPFbeAMGAAAAAAAAAA==",
+    "_self": "dbs/4fddAA==/colls/4fddAPFbeAM=/docs/4fddAPFbeAMGAAAAAAAAAA==/",
+    "_etag": "\"2000a578-0000-0d00-0000-66d6f7620000\"",
+    "_attachments": "attachments/",
+    "_lsn": 186,
+    "_ts": 1725364066
+}

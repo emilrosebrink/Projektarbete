@@ -1,0 +1,67 @@
+{
+    "id": "4948b681-3136-4d3b-b37d-ba086e81d700",
+    "reference": "1026094750-final-payment-1686912487",
+    "order": {
+        "reference": "1026094750",
+        "items": [
+            {
+                "reference": "Betalning",
+                "name": "BAB",
+                "description": null,
+                "quantity": 1,
+                "unit": "st",
+                "unitPrice": -49500,
+                "taxRate": 0,
+                "total": -49500,
+                "totalTax": 0,
+                "deliveryDate": "2023-06-16T00:00:00Z"
+            },
+            {
+                "reference": "M2118238",
+                "name": "Eastwood",
+                "description": null,
+                "quantity": 1,
+                "unit": "st",
+                "unitPrice": 119600,
+                "taxRate": 2500,
+                "total": 149500,
+                "totalTax": 29900,
+                "deliveryDate": "2023-06-22T00:00:00"
+            }
+        ],
+        "total": 100000,
+        "vat": 29900
+    },
+    "urls": {
+        "success": "https://www.mio.qa/mina-sidor/ordrar/1026094750/bekraftelse?code=efacda97c15949767bc173c82e2d582b0a6a08903b470ad6043185e75c14c473&provider=%7BPaymentProvider%7D",
+        "fail": "https://www.mio.qa/mina-sidor/ordrar/1026094750/betala"
+    },
+    "customer": {
+        "email": "karl.karlsson@mio.se",
+        "phone": "0701740614",
+        "personalIdentityNumber": "9905085156"
+    },
+    "values": null,
+    "partPayments": {
+        "nets-005e0000648c3e144e6e38f70077644b": {
+            "id": "005e0000648c3e144e6e38f70077644b",
+            "paymentId": "4948b681-3136-4d3b-b37d-ba086e81d700",
+            "provider": "Nets",
+            "method": "Swish",
+            "type": "A2A",
+            "amount": 100000,
+            "status": "Paid",
+            "created": "2023-06-16T12:48:57.545+02:00",
+            "updated": "2023-06-16T10:49:03.6690581Z",
+            "correlationId": null
+        }
+    },
+    "giftCards": {},
+    "partiallyPaid": false,
+    "_rid": "4fddAN41dPoCAAAAAAAAAA==",
+    "_self": "dbs/4fddAA==/colls/4fddAN41dPo=/docs/4fddAN41dPoCAAAAAAAAAA==/",
+    "_etag": "\"2500d979-0000-0d00-0000-66d82bcf0000\"",
+    "_attachments": "attachments/",
+    "_lsn": 9,
+    "_ts": 1725443023
+}

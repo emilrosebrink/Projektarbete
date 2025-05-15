@@ -1,0 +1,152 @@
+{
+    "id": "cbcb8380-6e0c-405a-bb43-d542d229f6cb",
+    "reference": "250947604263827",
+    "order": {
+        "reference": "250947604263827",
+        "items": [
+            {
+                "reference": "M2079205",
+                "name": "Tindra",
+                "description": null,
+                "quantity": 5,
+                "unit": "st",
+                "unitPrice": 400,
+                "unitPriceIncludingVat": 500,
+                "taxRate": 2500,
+                "total": 2500,
+                "totalTax": 500,
+                "deliveryDate": "2025-09-29T07:09:26.679711Z",
+                "group": null,
+                "originalPrice": 500
+            },
+            {
+                "reference": "M2160999",
+                "name": "Gotham",
+                "description": null,
+                "quantity": 1,
+                "unit": "st",
+                "unitPrice": 239600,
+                "unitPriceIncludingVat": 299500,
+                "taxRate": 2500,
+                "total": 299500,
+                "totalTax": 59900,
+                "deliveryDate": "2025-10-03T00:00:00",
+                "group": null,
+                "originalPrice": 299500
+            },
+            {
+                "reference": "M2232884",
+                "name": "Dakota",
+                "description": null,
+                "quantity": 1,
+                "unit": "st",
+                "unitPrice": 479200,
+                "unitPriceIncludingVat": 599000,
+                "taxRate": 2500,
+                "total": 599000,
+                "totalTax": 119800,
+                "deliveryDate": "2025-10-28T00:00:00+00:00",
+                "group": null,
+                "originalPrice": 599000
+            },
+            {
+                "reference": "MONTPG4",
+                "name": "Montering prisgrupp 4",
+                "description": null,
+                "quantity": 1,
+                "unit": "st",
+                "unitPrice": 32000,
+                "unitPriceIncludingVat": 40000,
+                "taxRate": 2500,
+                "total": 40000,
+                "totalTax": 8000,
+                "deliveryDate": "2025-10-03T00:00:00",
+                "group": "Montering",
+                "originalPrice": 40000
+            },
+            {
+                "reference": "MONTPG3",
+                "name": "Montering prisgrupp 3",
+                "description": null,
+                "quantity": 1,
+                "unit": "st",
+                "unitPrice": 24000,
+                "unitPriceIncludingVat": 30000,
+                "taxRate": 2500,
+                "total": 30000,
+                "totalTax": 6000,
+                "deliveryDate": "2025-10-28T00:00:00+00:00",
+                "group": "Montering",
+                "originalPrice": 30000
+            },
+            {
+                "reference": "LEVGULD1",
+                "name": "Hemleverans Guld",
+                "description": null,
+                "quantity": 1,
+                "unit": "st",
+                "unitPrice": 63600,
+                "unitPriceIncludingVat": 79500,
+                "taxRate": 2500,
+                "total": 79500,
+                "totalTax": 15900,
+                "deliveryDate": "2025-10-03T00:00:00",
+                "group": "Frakt",
+                "originalPrice": 79500
+            },
+            {
+                "reference": "LEVGULD1",
+                "name": "Hemleverans Guld",
+                "description": null,
+                "quantity": 1,
+                "unit": "st",
+                "unitPrice": 63600,
+                "unitPriceIncludingVat": 79500,
+                "taxRate": 2500,
+                "total": 79500,
+                "totalTax": 15900,
+                "deliveryDate": "2025-10-28T00:00:00+00:00",
+                "group": "Frakt",
+                "originalPrice": 79500
+            }
+        ],
+        "total": 1130000,
+        "vat": 226000
+    },
+    "urls": {
+        "success": "/bekraftelse?orderId=250947604263827&code=B857EB53841DACDFC7193E721D4B4F8E2B5A320B",
+        "fail": "/kassa"
+    },
+    "customer": {
+        "email": "karin.bergstrom@example.com",
+        "phone": "0046731456789",
+        "personalIdentityNumber": "198507153241"
+    },
+    "source": "Commerce",
+    "created": "2025-09-26T07:09:27.348831Z",
+    "values": null,
+    "storeId": "020",
+    "partPayments": {
+        "resurs-32db74ea081049bb971d6f7be9541b44": {
+            "id": "32db74ea081049bb971d6f7be9541b44",
+            "paymentId": "cbcb8380-6e0c-405a-bb43-d542d229f6cb",
+            "provider": "Resurs",
+            "method": "MIO delbetalning",
+            "type": "REVOLVING_CREDIT",
+            "amount": 1130000,
+            "status": "Reserved",
+            "created": "2025-09-26T09:09:38.092Z",
+            "updated": "0001-01-01T00:00:00",
+            "correlationId": "00d27968-bb8b-401d-9706-4a8758b8623c",
+            "isResursPayment": true,
+            "isOngoingResursPayment": false
+        }
+    },
+    "giftCards": {},
+    "partiallyPaid": false,
+    "_rid": "r2VRAMFacPICAAAAAAAAAA==",
+    "_self": "dbs/r2VRAA==/colls/r2VRAMFacPI=/docs/r2VRAMFacPICAAAAAAAAAA==/",
+    "_etag": "\"04000329-0000-0d00-0000-68d63c3b0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1758870587
+}

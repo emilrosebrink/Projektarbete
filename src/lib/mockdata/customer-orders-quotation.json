@@ -1,0 +1,92 @@
+{
+    "id": "1027020904:9661886d-783a-43fc-988e-b00000b66cb0",
+    "quotationId": "1027020904",
+    "state": "Active",
+    "customerNumber": "23757301",
+    "memberNumber": "50152833",
+    "contactId": "9661886d-783a-43fc-988e-b00000b66cb0",
+    "customer": {
+        "firstName": "Emil",
+        "lastName": "Emilsson",
+        "email": "emil@emil.emil",
+        "phone": "0761302393",
+        "address": "Emilgatan 27"
+    },
+    "created": "2024-05-21T00:00:00+02:00",
+    "expires": "2024-05-26T23:59:59+02:00",
+    "customerMessage": "",
+    "customerNotice": "",
+    "salesPerson": {
+        "id": "VFRASUPP",
+        "firstName": "Emil",
+        "image": null
+    },
+    "store": {
+        "id": "461",
+        "name": "Mio Västra Frölunda",
+        "address": "Exportgatan 49",
+        "phone": "031123456",
+        "email": "vastrafroluunda@mio.se",
+        "zipCode": "42122",
+        "city": "Västra Frölunda",
+        "country": "Sverige",
+        "slug": "vastra-frolunda"
+    },
+    "articles": [
+        {
+            "m3Id": "M2207340",
+            "name": "Barcelona",
+            "description": "Barcelona Utesoffa  vändbar H23/32 tyg beige ,underrede svart  rep/aluminium L259 B199 H68",
+            "fullDescription": null,
+            "image": null,
+            "url": null,
+            "price": 11995,
+            "originalPrice": 11995,
+            "quantity": 1,
+            "totalAmount": 11995,
+            "specifications": [],
+            "articleParts": [
+                {
+                    "m3Id": "M2209779",
+                    "name": "Barcelona",
+                    "description": "Barcelona Utesoffa hörn+mittdel  tyg beige ,underrede svart  rep/aluminium",
+                    "image": null,
+                    "url": null,
+                    "price": 6495,
+                    "originalPrice": 6495,
+                    "quantity": 1
+                },
+                {
+                    "m3Id": "M2209778",
+                    "name": "Barcelona",
+                    "description": "Barcelona Utesoffa 2x2-del  tyg beige ,underrede svart  rep/aluminium",
+                    "image": null,
+                    "url": null,
+                    "price": 5500,
+                    "originalPrice": 5500,
+                    "quantity": 1
+                }
+            ]
+        }
+    ],
+    "delivery": {
+        "method": "StorePickup",
+        "name": "Hämta i butik",
+        "description": "Hämta din order i en Mio-butik.",
+        "deliveryDate": null,
+        "deliveryDays": null,
+        "status": "NotFound",
+        "address": "XXXXX"
+    },
+    "totalAmount": 11995,
+    "discount": 0,
+    "ordinaryTotalAmount": 11995,
+    "currency": "SEK",
+    "isPaidInM3": false,
+    "_rid": "4fddAIDwTkIBAAAAAAAAAA==",
+    "_self": "dbs/4fddAA==/colls/4fddAIDwTkI=/docs/4fddAIDwTkIBAAAAAAAAAA==/",
+    "_etag": "\"1f007097-0000-0d00-0000-66d6c7920000\"",
+    "_attachments": "attachments/",
+    "_lsn": 7,
+    "_ts": 1725351826
+}

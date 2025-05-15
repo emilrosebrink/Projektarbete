@@ -1,0 +1,26 @@
+{
+    "id": "20220318092203:1L80Q6mbkcVg",
+    "FriendlyId": "22-182545",
+    "ComplaintDate": "2022-03-18T09:22:03.2485462Z",
+    "ProductType": 1,
+    "OrderNumber": "01800022",
+    "StoreId": "481",
+    "ClaimStoreId": null,
+    "Comment": "Vingligt bord",
+    "Files": [],
+    "Customer": {
+        "Name": "Karl Karlsson",
+        "Address": "Miovägen 152",
+        "ZipCode": "12345",
+        "City": "Alingsås",
+        "Phone": "0701740614",
+        "Email": "karl.karlsson@mio.se"
+    },
+    "Kind": 1,
+    "_rid": "4fddAPFbeAMBAAAAAAAAAA==",
+    "_self": "dbs/4fddAA==/colls/4fddAPFbeAM=/docs/4fddAPFbeAMBAAAAAAAAAA==/",
+    "_etag": "\"2000a078-0000-0d00-0000-66d6f7620000\"",
+    "_attachments": "attachments/",
+    "_lsn": 175,
+    "_ts": 1725364066
+}
