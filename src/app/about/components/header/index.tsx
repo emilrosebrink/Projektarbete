@@ -1,21 +1,21 @@
 "use client";
 
-import { Button } from "@/components/Button";
+import { Button } from "@/components/button";
 import { HeaderWrapper, StyledHeader } from "./styled";
 import PopoverDemo from "@/components/popover";
 import useContext from "@/hooks/useContext";
 import { StoreContext } from "@/providers/store";
-import { useAuth } from "@/providers/auth";
+import { useOptionalAuth } from "@/providers/auth";
 
 export const Header = () => {
   const { userStore } = useContext(StoreContext);
-  const { logout } = useAuth();
+  const auth = useOptionalAuth();
 
   return (
     <HeaderWrapper>
       <StyledHeader>About us</StyledHeader>
       <PopoverDemo />
-      <Button onClick={logout}>Log out</Button>
+      {auth && <Button onClick={auth.logout}>Log out</Button>}
       <p>{userStore}</p>
     </HeaderWrapper>
   );

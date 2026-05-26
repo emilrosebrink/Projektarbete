@@ -3,7 +3,7 @@ import { useState } from "react";
 import styles from "./page.module.css";
 import SearchTypeSelect from "@/components/SearchTypeSelect/SearchTypeSelect";
 import SearchInput from "@/components/SearchInput/SearchInput";
-import { Button } from "@/components/Button";
+import { Button } from "@/components/button";
 import { Trash2, Check, X, FileJson } from "lucide-react";
 import type { HighlightToken } from "@/lib/fuzzy";
 
